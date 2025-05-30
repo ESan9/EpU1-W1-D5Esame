@@ -36,6 +36,7 @@ footer {
 
 nav {
   padding: 35px 20px;
+  background-color: white;
 }
 
 /* HEADER */
@@ -43,22 +44,27 @@ nav {
 header img {
   width: 150px;
   margin: 30px;
+  background-color: white;
 }
 
-header nav {
+/* NAV */
+
+nav {
   background-image: url("/images/banner.jpg");
   background-size: 100%;
+  background-color: white;
 }
 
-header h1 {
+nav h1 {
   font-size: 1.5em;
 }
 
-header p {
-  padding: 15px;
+nav p {
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 
-header button {
+nav button {
   background-color: #f04c2f;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
@@ -68,8 +74,26 @@ header button {
   border-radius: 4px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* ELEMENTS MAIN (SECTION) */
+
+main h3,
+p {
+  margin: 15px;
+}
+
+#note1 {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+section {
+  margin: 30px;
 }
 
 /* FOOTER */
